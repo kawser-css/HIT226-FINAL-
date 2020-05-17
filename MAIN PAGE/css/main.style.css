@@ -1,0 +1,89 @@
+body{
+	margin:0px;
+	font-family: "Lato" , sans-serif;
+}
+
+.container{
+	display:grid;
+	grid-templates-columns:1fr;
+}
+.img-background{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../background.cdu.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+}
+
+.top{
+	display:flex;
+	flex-direction:row;
+	top:0;
+	right:0;
+
+}
+.logo img{
+	width:100px;
+	height:auto;
+}
+
+ .top ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.top ul li{
+    display: inline-block;
+}
+
+.top ul li a{
+    text-decoration: none;
+	color: #black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}	
+
+.top ul li a:hover{
+	background-color: #black;
+	color: #000;
+}
+
+.top l li.active a{
+	background-color: #black;
+	color: #white;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 50px
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	
+
+}
+.lastrow h2{
+	position: center;
+	top:50%;
+	left: 50%;
+	transform: translate (-50%,-50%)
+}
+
+.PHOTOGRAPHY {
+	padding: 10px;
+	background-color:#d1fbfc;
+}
+
+
+
